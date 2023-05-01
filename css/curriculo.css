@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.conteudo-sobre-titulo {
+    font-family: var(--font02);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor01);
+    padding: 20px 30px;
+}
+
+.conteudo-principal {
+    padding: 0 20px;
+}
+
+.conteudo-principal-div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px var(--cor06) solid;
+}
+
+.conteudo-principal-titulo {
+    font-family: var(--font02);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor01);
+}
+
+.conteudo-principal-subtitulo {
+    font-family: var(--font01);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor04);
+}
+
+.conteudo-destaque {
+    font-family: var(--font01);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor06);
+    padding-left: 10px;
+}
+
+.conteudo-principal-experiencia {
+    font-family: var(--font01);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor01);
+}
+
+.conteudo-secundario {
+    padding: 0 20px;
+}
+
+.conteudo-terciario {
+    padding: 0 20px;
+}

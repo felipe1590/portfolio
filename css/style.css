@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Rubik:wght@700&display=swap');
+
+:root {
+
+    --cor01: #f3f3f3;
+    --cor02: #292A73;
+    --cor03: #1A1B4B;
+    --cor04: #F7A400;
+    --cor05: #3A9EFD;
+    --cor06: #3E4491;
+
+    --font01: 'Roboto Mono', monospace;
+    --font02: 'Rubik', sans-serif;
+    --font03: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-size: 100%;
+    background: linear-gradient(281.8deg, var(--cor03) 0%, var(--cor02) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cabecalho-titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    color: var(--cor01);
+}
+
+.cabecalho-titulo-h1 {
+    font-family: var(--font02);
+    font-weight: 700;
+    font-size: 58px;
+}
+
+.cabecalho-subtitulo-h2 {
+    font-family: var(--font01);
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 11px;
+    padding-left: 6px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 35px;
+    padding-bottom: 11px;
+    padding-right: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: var(--font01);
+    color: var(--cor01);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape {
+    padding: 48px;
+}
+
+.rodape-titulo {
+    text-align: center;
+    font-family: var(--font01);
+    font-weight: 300;
+    color: var(--cor01);
+}
+
+
+
+
+
