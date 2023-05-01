@@ -28,6 +28,7 @@ body {
     margin: auto;
     font-size: 100%;
     background: linear-gradient(281.8deg, var(--cor03) 0%, var(--cor02) 100%);
+    background-size: 100vw;
 }
 
 .cabecalho {

@@ -68,7 +68,7 @@
 }
 
 .conhecimentos-titulo {
-    text-align: center;
+    align-self: center;
     font-family: var(--font01);
     font-weight: 300;
     font-size: 18px;
@@ -81,6 +81,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 130px;
+    margin-bottom: 60px;
 }
 
 .conhecimentos-imagem {
