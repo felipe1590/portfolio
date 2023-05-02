@@ -39,20 +39,20 @@ body {
     padding: 10px;
 }
 
-.cabecalho-titulo {
+.cabecalho-escrito {
     display: flex;
     flex-direction: row;
     align-items: end;
     color: var(--cor01);
 }
 
-.cabecalho-titulo-h1 {
+.cabecalho-titulo {
     font-family: var(--font02);
     font-weight: 700;
     font-size: 58px;
 }
 
-.cabecalho-subtitulo-h2 {
+.cabecalho-subtitulo {
     font-family: var(--font01);
     font-weight: 500;
     font-size: 18px;
@@ -67,11 +67,24 @@ body {
     padding-right: 30px;
 }
 
+.cabecalho-menu-img {
+    display: none;
+    color: var(--cor01);
+}
+
 .cabecalho-menu-item {
     font-family: var(--font01);
     color: var(--cor01);
     font-weight: 500;
     font-size: 18px;
+    transition: .8s;
+}
+
+.cabecalho-menu-item:hover {
+    transform: translate(-3px,-3px);
+    transform: trasition .8s;
+    color: var(--cor04);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .rodape {
@@ -85,7 +98,23 @@ body {
     color: var(--cor01);
 }
 
+.top {
+    position: fixed;
+    top: 85vh;
+    left: 85vw;
+    background-color: var(--cor02);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--cor01);
+    transition: .8s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
 
-
-
+.top:hover {
+    color: var(--cor02);
+    background-color: var(--cor04);
+}
 

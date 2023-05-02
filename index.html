@@ -6,34 +6,43 @@
     <title>Portfólio</title>
     <link rel="shortcut icon" href="imagens/logobrancaic.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/curriculo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho-titulo">
-            <h1 class="cabecalho-titulo-h1">GT.</h1>
-            <h2 class="cabecalho-subtitulo-h2">&lt;developer /&gt;</h2>
+    <header id="home" class="cabecalho">
+        <div class="cabecalho-escrito">
+            <h1 class="cabecalho-titulo">GT.</h1>
+            <h2 class="cabecalho-subtitulo">&lt;developer /&gt;</h2>
         </div>
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="index.html">Home</a>
-            <a class="cabecalho-menu-item" href="projetos.html">Projetos</a>
-            <a class="cabecalho-menu-item" href="curriculo.html">Currículo</a>
+            <a class="cabecalho-menu-item" href="#home">Home</a>
+            <a class="cabecalho-menu-item" href="#projetos">Projetos</a>
+            <a class="cabecalho-menu-item" href="#curriculo">Currículo</a>
         </nav>
     </header>
     <main class="conteudo">
         <section class="conteudo-sobre">
             <div class="conteudo-sobre-escrito">
                 <h1 class="conteudo-sobre-nome">Felipe Gama</h1>
-                <p class="conteudo-sobre-descricao">Sou desenvolvedor Front-end Junior, <br> com conhecimentos em Html, Css e JavaScript.<br> Alinhados a compreensão de UX e UI Designer.</p>
+                <p class="conteudo-sobre-descricao">Sou <i>desenvolvedor</i> Front-end Junior, <br> com conhecimentos em Html, Css e JavaScript.<br> Alinhados a compreensão de UX e UI Designer.</p>
                 <div class="conteudo-sobre-div">
                     <a class="conteudo-sobre-link" href="https://github.com/felipe1590" target="_blank">
-                        <img class="conteudo-sobre-link-imagem" src="icones/github.png" alt="github">
+                        <abbr title="GitHub"><img class="conteudo-sobre-link-imagem" src="imagens/github.png" alt="github"></abbr>
                     </a>
                     <a class="conteudo-sobre-link" href="https://www.linkedin.com/in/felipe-gama-3a5638265/" target="_blank">
-                        <img class="conteudo-sobre-link-imagem" src="icones/linkedin.png" alt="linkedin">
+                        <abbr title="Linkedin"><img class="conteudo-sobre-link-imagem" src="imagens/linkedin.png" alt="linkedin"></abbr>
                     </a>
                     <a class="conteudo-sobre-link" href="https://www.instagram.com/felipe.gamart/" target="_blank">
-                        <img class="conteudo-sobre-link-imagem" src="icones/instagram.png" alt="instagram">
+                        <abbr title="Instagram"><img class="conteudo-sobre-link-imagem" src="imagens/instagram.png" alt="instagram"></abbr>
                     </a>
                 </div>
             </div>
@@ -42,15 +51,139 @@
         </section>
 
         <section class="conhecimentos">
-            <p class="conhecimentos-titulo">meus conhecimentos</p>
+            <p class="conhecimentos-titulo">Meus conhecimentos</p>
             <div class="conhecimentos-imagem-div">
-                <img class="conhecimentos-imagem" src="imagens/icons8-html-5-90.png" alt="html5">
-                <img class="conhecimentos-imagem" src="imagens/icons8-css3-90.png" alt="css3">
-                <img class="conhecimentos-imagem" src="imagens/icons8-javascript-90.png" alt="javascript">
-                <img class="conhecimentos-imagem" src="imagens/icons8-windows-10-personalization-90.png" alt="ux">
-                <img class="conhecimentos-imagem" src="imagens/icons8-linux-90.png" alt="linux">
+                <abbr title="HTML">
+                    <img class="conhecimentos-imagem" src="imagens/html.png" alt="html5">
+                </abbr>
+                <abbr title="CSS">
+                    <img class="conhecimentos-imagem" src="imagens/css3.png" alt="css3">
+                </abbr>
+                <abbr title="JavaScript">
+                    <img class="conhecimentos-imagem" src="imagens/javascript.png" alt="javascript">
+                </abbr>
+                <abbr title="UX Design">
+                    <img class="conhecimentos-imagem" src="imagens/ux.png" alt="ux">
+                </abbr>
+                <abbr title="Linux">
+                    <img class="conhecimentos-imagem" src="imagens/linux.png" alt="linux">
+                </abbr>
             </div>
         </section>
+
+        <h1 id="projetos" class="projetos-titulo">Portfólio</h1>
+        <section class="projetos-principal">
+            <div class="projetos-principal-site">
+                <p class="projetos-principal-descricao">&lt;Site informativo /&gt;</p>
+                <h1 class="projetos-principal-titulo">Projeto Android</h1>
+                <img class="projetos-principal-imagem" src="imagens/site-android1.jpg" alt="landing-page">
+                <a class="projetos-principal-link" href="https://felipe1590.github.io/projeto-android/" target="_blank">Acesse aqui 
+                    <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+            </div>
+            <div class="projetos-principal-site">
+                <p class="projetos-principal-descricao">&lt;Site informativo /&gt;</p>
+                <h1 class="projetos-principal-titulo">Projeto Android</h1>
+                <img class="projetos-principal-imagem" src="imagens/site-android1.jpg" alt="landing-page">
+                <a class="projetos-principal-link" href="https://felipe1590.github.io/projeto-android/" target="_blank">Acesse aqui 
+                    <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+            </div>
+            <div class="projetos-principal-site">
+                <p class="projetos-principal-descricao">&lt;Site informativo /&gt;</p>
+                <h1 class="projetos-principal-titulo">Projeto Android</h1>
+                <img class="projetos-principal-imagem" src="imagens/site-android1.jpg" alt="landing-page">
+                <a class="projetos-principal-link" href="https://felipe1590.github.io/projeto-android/" target="_blank">Acesse aqui 
+                    <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+            </div>
+            <div class="projetos-principal-site">
+                <p class="projetos-principal-descricao">&lt;Site informativo /&gt;</p>
+                <h1 class="projetos-principal-titulo">Projeto Android</h1>
+                <img class="projetos-principal-imagem" src="imagens/site-android1.jpg" alt="landing-page">
+                <a class="projetos-principal-link" href="https://felipe1590.github.io/projeto-android/" target="_blank">Acesse aqui 
+                    <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+            </div>
+            <div class="projetos-principal-site">
+                <p class="projetos-principal-descricao">&lt;Site informativo /&gt;</p>
+                <h1 class="projetos-principal-titulo">Projeto Android</h1>
+                <img class="projetos-principal-imagem" src="imagens/site-android1.jpg" alt="landing-page">
+                <a class="projetos-principal-link" href="https://felipe1590.github.io/projeto-android/" target="_blank">Acesse aqui 
+                    <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+            </div>
+            <div class="projetos-principal-site">
+                <p class="projetos-principal-descricao">&lt;Site informativo /&gt;</p>
+                <h1 class="projetos-principal-titulo">Projeto Android</h1>
+                <img class="projetos-principal-imagem" src="imagens/site-android1.jpg" alt="landing-page">
+                <a class="projetos-principal-link" href="https://felipe1590.github.io/projeto-android/" target="_blank">Acesse aqui 
+                    <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <h1 id="curriculo" class="curriculo-sobre-titulo">Experiências profissionais</h1>
+        <section class="curriculo-principal">
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Auxiliar de Escritório <span class="curriculo-destaque">Março 2019 - Junho 2022</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Econômico Comercio de Alimentos</h2>
+                <p class="curriculo-principal-experiencia">Executei entrada e saída de notas fiscais, auxilio em procedimentos de estoque e treinamentos.</p>
+            </div>
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Auxiliar de Processos de TI <span class="curriculo-destaque">Junho 2022 - Atual</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Autônomo em TI</h2>
+                <p class="curriculo-principal-experiencia">Executei processos de automação, formatação, limpeza, treinamentos de sistemas de gerencia e emissão de notas fiscais.</p>
+            </div>
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Desenvolvedor VB.NET <span class="curriculo-destaque">Agosto 2022 - Atual</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Geta Sistemas</h2>
+                <p class="curriculo-principal-experiencia">Criei e programei um sistema ERP, que conta com funcionalidades de administração de estoque, preços, vendas e emissão de relátorios detalhados.</p>
+            </div>
+        </section>
+        <h1 class="curriculo-sobre-titulo">Cursos</h1>
+        <section class="curriculo-secundario">
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Curso de Vídeo <span class="curriculo-destaque">Abril 2023</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Curso de HTML e CSS - Módulo 4/4</h2>
+            </div>
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Curso de Vídeo <span class="curriculo-destaque">Maio 2023</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Curso de JavaScript</h2>
+            </div>
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Awari <span class="curriculo-destaque">Maio 2023</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Introdução a UX e UI</h2>
+            </div>
+        </section>
+        <h1 class="curriculo-sobre-titulo">Formação</h1>
+        <section class="curriculo-terciario">
+            <div class="curriculo-principal-div">
+                <h1 class="curriculo-principal-titulo">Instituto de Estudos Superiores da Amazônia - ESTÁCIO <span class="curriculo-destaque">Julho 2021</span></h1>
+                <h2 class="curriculo-principal-subtitulo">Tecnologias em Jogos Digitais</h2>
+            </div>
+        </section>
+
+        <a class="top" href="#home">
+            <span class="material-symbols-outlined">
+                arrow_upward
+            </span>
+        </a>
     </main>
+    <footer class="rodape">
+        <p class="rodape-titulo">Todos os direitos reservados - 2023</p>
+    </footer>
 </body>
 </html>
