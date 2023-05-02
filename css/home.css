@@ -21,6 +21,7 @@
 }
 
 .conteudo-sobre-nome {
+    animation:tracking-in-expand 0.8s linear both;
     font-family: var(--font02);
     font-weight: 700;
     font-size: 38px;
@@ -104,3 +105,5 @@
     animation:rotate-scale-up-horizontal 0.8s linear both
 }
 @keyframes rotate-scale-up-horizontal{0%{transform:scale(1) rotateX(0)}50%{transform:scale(2) rotateX(-180deg)}100%{transform:scale(1) rotateX(-360deg)}}
+
+@keyframes tracking-in-expand{0%{letter-spacing:-.2em;opacity:0}40%{opacity:.6}100%{opacity:1}}
