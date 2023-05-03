@@ -96,6 +96,11 @@ body {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+.cabecalho-menu-imagem {
+    display: none;
+    filter: brightness(0);
+}
+
 .rodape {
     padding: 48px;
 }
@@ -125,4 +130,46 @@ body {
 .top:hover {
     color: var(--cor02);
     background-color: var(--cor04);
+}
+
+@media (max-width: 600px) {
+    .escrito-item {
+        display: none;
+    }
+
+    .cabecalho-menu-imagem {
+        display: flex;
+        width: 35px;
+    }
+
+    .cabecalho-menu-imagem:hover {
+        filter: none;
+    }
+}
+
+@media (max-width:320px){
+
+    .escrito-item {
+        display: none;
+    }
+
+    .cabecalho-menu-lista {
+        position: absolute;
+        display: block;
+        top: 4%;
+        right: 5%;
+    }
+
+    .cabecalho-menu-item {
+        padding-bottom: 15px;
+    }
+
+    .cabecalho-menu-imagem {
+        display: flex;
+        width: 35px;
+    }
+
+    .cabecalho-menu-imagem:hover {
+        filter: none;
+    }
 }
