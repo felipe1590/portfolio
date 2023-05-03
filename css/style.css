@@ -137,24 +137,8 @@ body {
         display: none;
     }
 
-    .cabecalho-menu-imagem {
-        display: flex;
-        width: 35px;
-    }
-
-    .cabecalho-menu-imagem:hover {
-        filter: none;
-    }
-}
-
-@media (max-width:320px){
-
-    .escrito-item {
-        display: none;
-    }
-
     .cabecalho-menu-lista {
-        position: absolute;
+        position: fixed;
         display: block;
         top: 4%;
         right: 5%;
@@ -166,10 +150,14 @@ body {
 
     .cabecalho-menu-imagem {
         display: flex;
-        width: 35px;
+        width: 40px;
     }
 
     .cabecalho-menu-imagem:hover {
         filter: none;
+    }
+
+    .top {
+        display: none;
     }
 }
